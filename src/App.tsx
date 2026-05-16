@@ -946,7 +946,7 @@ const LoginPage = ({ onLogin }) => {
 };
 
 // ─── MAIN APP ──────────────────────────────────────────────────────────────
-export default function VetCare() {
+export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [activePage, setActivePage] = useState("dashboard");
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
